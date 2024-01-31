@@ -1,0 +1,83 @@
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    /* margin-left: 16.95%; */
+    margin-top: 50px;
+    position: absolute;
+    /* background-color: aquamarine; */
+  }
+  .dashboard-courses{
+    margin-top: 18px;
+  }
+  .dashboard-revenue{
+    /* margin-top: -28px; */
+  }
+  .dahboard-image{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+  }
+  .image2-dash{
+    border-radius: 12px;
+    margin-left: 85px;
+    box-shadow:  0 0 10px rgba(1, 1, 1, 0.5);
+    transition:  0.8s ease;
+  }
+  .image2-dash:hover{
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+  }
+  .image1-dash{
+    border-radius: 12px;
+    box-shadow:  0 0 10px rgba(1, 1, 1, 0.5);
+    transition:  0.3s ease;
+  }
+  .image1-dash:hover{
+    /* background-color: #e0e0e0; */
+    transform: scale(1.1);
+  }
+  .dashboard-card {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+    box-shadow:  0 0 10px rgba(1, 1, 1, 0.5);
+    transition:  0.3s ease;
+  }
+  .dashboard-card:hover {
+    background-color: #e0e0e0; 
+    transform: scale(1.1);
+  }
+  .dashboard-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-card p {
+    font-weight: bold;
+  }
+  
+  .dashboard-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-card li {
+    margin-bottom: 5px;
+  }
+  .dashboard-graph {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  .dashboard-graph h2 {
+    margin-bottom: 10px;
+  }
